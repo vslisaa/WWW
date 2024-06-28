@@ -1,0 +1,1364 @@
+body{
+    background-color: black;
+    overflow-x: hidden;
+    width: 100vw;
+    height: 57.2vw;
+}
+
+html::-webkit-scrollbar { 
+    display: none; 
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+/* 🍏🍏🍏   HEADER   🍏🍏🍏 */
+.logo{
+    display: block;
+    position: relative;
+    width: 8vw;
+    margin-top: 0.7vw;
+    margin-left: 7vw;
+    z-index: 3;
+}
+
+.about{
+    display: block;
+    position: relative;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    left: 31vw;
+    top: -1.4vw;
+    z-index: 3;
+}
+
+.home{
+    display: block;
+    position: relative;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    left: 37.5vw;
+    top: -2.3vw;
+    z-index: 3;
+}
+
+.build{
+    display: block;
+    position: relative;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    left: 43.8vw;
+    top: -3.2vw;
+    z-index: 3;
+}
+
+.cloth{
+    display: block;
+    position: relative;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    left: 51.5vw;
+    top: -4.1vw;
+    z-index: 3;
+}
+
+.book{
+    display: block;
+    position: relative;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    left: 58vw;
+    top: -5vw;
+    z-index: 3;
+}
+
+.posters{
+    display: block;
+    position: relative;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    left: 64vw;
+    top: -5.9vw;
+    z-index: 3;
+}
+
+.god{
+    display: block;
+    position: relative;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1vw;
+    left: 71.6vw;
+    top: -6.85vw;
+    z-index: 3;
+}
+
+.bagicon{
+    display: block;
+    position: relative;
+    width: 4vw;
+    left: 89vw;
+    top: -8vw;
+    z-index: 3;
+}
+
+
+
+/* 🍏🍏🍏   GENERAL   🍏🍏🍏 */
+
+.bookgeneral{
+    display: block;
+    position: absolute;
+    width: 39vw;
+    left: 6vw;
+    top: 8vw;
+    z-index: 1;
+}
+
+.buildgeneral{
+    display: block;
+    position: absolute;
+    width: 39vw;
+    left: 50vw;
+    top: 6vw;
+    z-index: 1;
+}
+
+.videogeneral{
+    display: block;
+    position: absolute;
+    width: 80vw;
+    left: 8vw;
+    top: 32vw;
+    z-index: 1;
+}
+
+.ourbook{
+    display: block;
+    position: absolute;
+    font-family: "K2D", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1vw;
+    left: 38vw;
+    top: 9.4vw;
+    z-index: 2;
+}
+.aboutbuild{
+    display: block;
+    position: absolute;
+    font-family: "K2D", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1vw;
+    left: 78.8vw;
+    top: 7.6vw;
+    z-index: 2;
+}
+
+.concept{
+    display: block;
+    position: absolute;
+    font-family: "K2D", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1vw;
+    left: 81.1vw;
+    top: 33.9vw;
+    z-index: 2;
+}
+.newdrop{
+    display: block;
+    position: relative;
+    font-family: "K2D", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1vw;
+    text-align: center;
+    top: 52vw;
+}
+.leftarrow{
+    display: block;
+    position: relative;
+    width: 0.9vw;
+    left: 7vw;
+    top: 66vw;
+}
+.rightarrow{
+    display: block;
+    position: relative;
+    width: 0.9vw;
+    left: 92vw;
+    top: 64vw;
+}
+
+.socksgen{
+    display: block;
+    position: relative;
+    width: 13vw;
+    left: 13.5vw;
+    top: 54.4vw;
+}
+.pantsgen{
+    display: block;
+    position: relative;
+    width: 13vw;
+    left: 33.5vw;
+    top: 19.6vw;
+}
+.tshirtgen{
+    display: block;
+    position: relative;
+    width: 13vw;
+    left: 53.5vw;
+    top: 1vw;
+}
+.baggen{
+    display: block;
+    position: relative;
+    width: 13vw;
+    left: 73.5vw;
+    top: 37vw;
+}
+.socksgentext{
+    display: block;
+    position: relative;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    left: 18.5vw;
+    top: 3.5vw;
+}
+.pantsgentext{
+    display: block;
+    position: relative;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    left: 41vw;
+    top: 2.8vw;
+}
+.tshirtgentext{
+    display: block;
+    position: relative;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    left: 60vw;
+    top: 1.6vw;
+}
+.baggentext{
+    display: block;
+    position: relative;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    left: 80vw;
+    top: 0.9vw;
+}
+.blackgen{
+    display: block;
+    position: relative;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: #777777;
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    left: 18.5vw;
+    top: 1.2vw;
+}
+.noyesblackgen{
+    display: block;
+    position: relative;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: #777777;
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    left: 39vw;
+    top: 0.5vw;
+}
+.prblmsgen{
+    display: block;
+    position: relative;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: #777777;
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    left: 58vw;
+    top: -0.7vw;
+}
+.grafitgen{
+    display: block;
+    position: relative;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: #777777;
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    left: 79.4vw;
+    top: -1.3vw;
+}
+.socksgenprice{
+    display: block;
+    position: relative;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    left: 19vw;
+    top: 0.4vw;
+}
+.pantsgenprice{
+    display: block;
+    position: relative;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    left: 41.6vw;
+    top: -0.1vw;
+}
+.tshirtgenprice{
+    display: block;
+    position: relative;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    left: 60.8vw;
+    top: -1.3vw;
+}
+.baggenprice{
+    display: block;
+    position: relative;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    left: 80vw;
+    top: -2.1vw;
+}
+.points{
+    display: block;
+    position: relative;
+    width: 6vw;
+    margin-left: auto;
+    margin-right: auto;
+    top: 2vw;
+}
+.surprise{
+    display: block;
+    position: relative;
+    width: 1.3vw;
+    left: 1.5vw;
+    top: 10vw;
+}
+
+.logo2{
+    display: block;
+    position: relative;
+    width: 11vw;
+    left: 10vw;
+    top: 25vw;
+}
+.adress{
+    display: block;
+    position: relative;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: white;
+    text-transform: uppercase;
+    line-height: 1.5vw;
+    font-size: 0.7vw;
+    left: 11vw;
+    top: 26vw;
+}
+.contactstext{
+    display: block;
+    position: relative;
+    font-family: "K2D", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    text-transform: uppercase;
+    line-height: 1.5vw;
+    font-size: 0.8vw;
+    left: 40vw;
+    top: 15vw;
+}
+.programstext{
+    display: block;
+    position: relative;
+    font-family: "K2D", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    text-transform: uppercase;
+    line-height: 1.5vw;
+    font-size: 0.8vw;
+    left: 57.5vw;
+    top: 13.5vw;
+}
+.shoptext{
+    display: block;
+    position: relative;
+    font-family: "K2D", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    text-transform: uppercase;
+    line-height: 1.5vw;
+    font-size: 0.8vw;
+    left: 75vw;
+    top: 12vw;
+}
+.contactstextop{
+    display: block;
+    position: relative;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: white;
+    text-transform: uppercase;
+    line-height: 2vw;
+    font-size: 0.65vw;
+    left: 40vw;
+    top: 14vw;
+}
+.programstextop{
+    display: block;
+    position: relative;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: white;
+    text-transform: uppercase;
+    line-height: 2vw;
+    font-size: 0.65vw;
+    left: 57.5vw;
+    top: 6vw;
+}
+.shoptextop{
+    display: block;
+    position: relative;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: white;
+    text-transform: uppercase;
+    line-height: 2vw;
+    font-size: 0.65vw;
+    left: 75vw;
+    top: 0vw;
+}
+.podval{
+    display: block;
+    position: relative;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.842);
+    text-transform: uppercase;
+    line-height: 2vw;
+    font-size: 0.65vw;
+    left: 11vw;
+    top: 8vw;
+}
+.pusto{
+    display: block;
+    position: relative;
+    width: 100vw;
+    height: 8.5vw;
+}
+
+/* 🍏🍏🍏   ABOUT   🍏🍏🍏 */
+/* .abouttextone{
+    display: block;
+    position: relative;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.842);
+    text-transform: uppercase;
+    line-height: 1.2vw;
+    font-size: 0.85vw;
+    left: -2vw;
+    top: 17vw;
+    margin: auto;
+    text-align: center;
+    z-index: 1;
+} */
+.abouttexttwo{
+    display: block;
+    position: relative;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.842);
+    text-transform: uppercase;
+    line-height: 1.2vw;
+    font-size: 0.85vw;;
+    top: 40vw;
+    text-align: center;
+    z-index: 1;
+}
+.drawing{
+    display: block;
+    position: absolute;
+    top: 0vw;
+    width: 100vw;
+    height: 45vw;
+    z-index: 2;
+}
+.themselves{
+    display: block;
+    position: relative;
+    width: 60vw;
+    left: 21vw;
+    top: 13vw;
+    z-index: 1;
+}
+/* 🍏🍏🍏   SUBSCRIPTION   🍏🍏🍏 */
+
+.subcsription{
+    display: block;
+    position: relative;
+    width: 53vw;
+    left: 24vw;
+    top: 6vw;
+    z-index: 1;
+}
+.email{
+    display: block;
+    position: absolute;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: #707070;
+    text-transform: uppercase;
+    line-height: 2vw;
+    font-size: 0.65vw;
+    left: 52vw;
+    top: 27vw;
+    transform: rotate(1deg);
+    width: 17vw;
+    background-color: black;
+    outline: none;
+    z-index: 2;
+}
+
+input{
+    outline:none;
+    border: none;
+}
+.exit{
+    display: block;
+    position: absolute;
+    left: 75vw;
+    top: 18vw;
+    width: 1.5vw;
+    height: 1.5vw;
+    transform: rotate(1deg);
+    z-index: 2;
+}
+
+/* 🍏🍏🍏   404   🍏🍏🍏 */
+.fail{
+    display: block;
+    position: absolute;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 2vw;
+    font-size: 1.1vw;
+    left: 44vw;
+    top: 28vw;
+    transform: rotate(-163.64deg);
+}
+
+/* 🍏🍏🍏   BUILDING   🍏🍏🍏 */
+.safe{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: -3vw;
+    width: 76vw;
+}
+.podpisbuild{
+    display: block;
+    position: relative;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 2vw;
+    font-size: 0.9vw;
+    left: 13.5vw;
+    top: -1vw;
+}
+.buildtext1{
+    display: block;
+    position: relative;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 1.2vw;
+    font-size: 0.9vw;
+    left: 13.5vw;
+    top: 7vw;
+}
+.cherk{
+    display: block;
+    position: absolute;
+    left: 55.7vw;
+    top: 60.8vw;
+    width: 6vw;
+}
+.s{
+    display: block;
+    position: absolute;
+    left: 20.5vw;
+    top: 62.5vw;
+    width: 1vw;
+}
+
+.showreelimg{
+    display: block;
+    position: relative;
+    width: 73vw;
+    margin-left: auto;
+    margin-right: auto;
+    top: 21vw;
+}
+
+.showreelhref{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 3vw;
+    width: 5vw;
+    transition: 1s
+}
+
+.showreelhref:hover{
+    transform: scale(1.1);
+}
+.podpisoblet{
+    display: block;
+    position: relative;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 2vw;
+    font-size: 0.9vw;
+    left: 13.5vw;
+    top: 18.4vw;
+}
+.chertezh{
+    display: block;
+    position: relative;
+    width: 74vw;
+    margin-left: auto;
+    margin-right: auto;
+    top: 35vw;
+}
+.renders{
+    display: block;
+    position: relative;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    top: 55vw;
+    z-index: 1;
+}
+.buildtext2{
+    display: block;
+    position: absolute;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 1.3vw;
+    font-size: 0.8vw;
+    left: 53.7vw;
+    top: 244vw;
+    z-index: 2;
+}
+.buildtext3{
+    display: block;
+    position: absolute;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 1.3vw;
+    font-size: 0.8vw;
+    left: 4vw;
+    top: 344vw;
+    z-index: 2;
+}
+.buildtext4{
+    display: block;
+    position: absolute;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 1.3vw;
+    font-size: 0.8vw;
+    left: 53.7vw;
+    top: 444vw;
+    z-index: 2;
+}
+.buildtext5{
+    display: block;
+    position: absolute;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 1.3vw;
+    font-size: 0.8vw;
+    left: 4vw;
+    top: 576vw;
+    z-index: 2;
+}
+
+/* 🍏🍏🍏   SHOP   🍏🍏🍏 */
+.clothf{
+    width: 100vw;
+    height: 90vw;
+}
+.hoodie{
+    display: block;
+    position: relative;
+    width: 17vw;
+    left: 13vw;
+    top: 3vw;
+}
+.pants{
+    display: block;
+    position: relative;
+    width: 17vw;
+    margin-left: auto;
+    margin-right: auto;
+    top: -20.3vw;
+}
+.bag{
+    display: block;
+    position: relative;
+    width: 17vw;
+    left: 70vw;
+    top: -43.5vw;
+}
+.tshirt{
+    display: block;
+    position: relative;
+    width: 17vw;
+    left: 14vw;
+    top: -26vw;
+}
+.case{
+    display: block;
+    position: relative;
+    width: 17vw;
+    left: 45vw;
+    top: -49vw;
+}
+.socks{
+    display: block;
+    position: relative;
+    width: 17vw;
+    left: 70vw;
+    top: -74vw;
+}
+
+.hooditext1{
+    display: block;
+    position: absolute;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    left: 19.5vw;
+    top: 39vw;
+}
+.pantstext1{
+    display: block;
+    position: absolute;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    left: 47vw;
+    top: 39vw;
+}
+.tshirttext1{
+    display: block;
+    position: absolute;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    left: 19vw;
+    top: 80vw;
+}
+.casetext1{
+    display: block;
+    position: absolute;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    left: 50vw;
+    top: 80vw;
+}
+.sockstext1{
+    display: block;
+    position: absolute;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    left: 78.3vw;
+    top: 79.8vw;
+}
+.bagtext1{
+    display: block;
+    position: absolute;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    left: 74vw;
+    top: 39vw;
+}
+
+.hooditext2{
+    display: block;
+    position: absolute;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: #777777;
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    left: 19.7vw;
+    top: 40.5vw;
+}
+.pantstext2{
+    display: block;
+    position: absolute;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: #777777;
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    left: 44.5vw;
+    top: 40.5vw;
+}
+.tshirttext2{
+    display: block;
+    position: absolute;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: #777777;
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    left: 17.3vw;
+    top: 81.5vw;
+}
+.casetext2{
+    display: block;
+    position: absolute;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: #777777;
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    left: 51.3vw;
+    top: 81.5vw;
+}
+.sockstext2{
+    display: block;
+    position: absolute;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: #777777;
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    left: 78.3vw;
+    top: 81.3vw;
+}
+.bagtext2{
+    display: block;
+    position: absolute;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: #777777;
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    left: 73.3vw;
+    top: 40.5vw;
+}
+.hooditext3{
+    display: block;
+    position: absolute;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: #AE0000;
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    left: 19.9vw;
+    top: 43.5vw;
+}
+.pantstext3{
+    display: block;
+    position: absolute;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: #AE0000;
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    left: 47.5vw;
+    top: 43.5vw;
+}
+.tshirttext3{
+    display: block;
+    position: absolute;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    left: 20.2vw;
+    top: 84.8vw;
+}
+.casetext3{
+    display: block;
+    position: absolute;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    left: 50.6vw;
+    top: 84.8vw;
+}
+.sockstext3{
+    display: block;
+    position: absolute;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    left: 79vw;
+    top: 84.5vw;
+}
+.bagtext3{
+    display: block;
+    position: absolute;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    left: 74vw;
+    top: 43.5vw;
+}
+.zacherk1{
+    display: block;
+    position: absolute;
+    width: 2.5vw;
+    left: 23vw;
+    top: 43.2vw;
+}
+.zacherk2{
+    display: block;
+    position: absolute;
+    width: 2vw;
+    left: 50.4vw;
+    top: 43.25vw;
+}
+
+/* 🍏🍏🍏   BOOK   🍏🍏🍏 */
+.bookmockup{
+    display: block;
+    position: relative;
+    width: 43vw;
+    left:8vw;
+    top: -2vw;
+}
+.booktext1{
+    display: block;
+    position: absolute;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 1.2vw;
+    font-size: 0.9vw;
+    left: 64vw;
+    top: 15vw;
+}
+.cherk2{
+    display: block;
+    position: absolute;
+    width: 11vw;
+    left:69.3vw;
+    top: 19.5vw;
+}
+.bagbutton{
+    display: block;
+    position: absolute;
+    left:64vw;
+    top: 39vw;
+}
+.bookpages{
+    display: block;
+    position: relative;
+    width: 100vw;
+    top: 14vw;
+}
+.booktext2{
+    display: block;
+    position: absolute;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 1.3vw;
+    font-size: 0.8vw;
+    left: 53.7vw;
+    top: 121vw;
+    z-index: 2;
+}
+.booktext3{
+    display: block;
+    position: absolute;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 1.3vw;
+    font-size: 0.8vw;
+    left: 4vw;
+    top: 221vw;
+    z-index: 2;
+}
+
+/* 🍏🍏🍏   BOOKstack   🍏🍏🍏 */
+/* .bookstack{
+    display: block;
+    position: relative;
+    width: 40vw;
+    height: 30vw;
+    left: 24vw;
+    top: -1vw;
+}
+.bookstack img{
+    position: absolute;
+    width: 50vw;
+    height: 40vw;
+  } */
+
+
+/* 🍏🍏🍏  POSTER  🍏🍏🍏 */
+.postersimg{
+    display: block;
+    position: relative;
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+    top: 3vw;
+}
+.postertext p{
+    display: block;
+    position: absolute;
+    font-family: "K2D", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 0.9vw;
+}
+.p1text1{
+    left: 20vw;
+    top: 43vw;
+    color: white;
+}
+.p2text1{
+    left: 49vw;
+    top: 43vw;
+    color: white;
+}
+.p3text1{
+    left: 77vw;
+    top: 43vw;
+    transform: rotate(-6.02deg);
+    color: white;
+}
+.p4text1{
+    left: 20vw;
+    top: 87vw;
+    color: white;
+}
+.p5text1{
+    left: 43.5vw;
+    top: 85vw;
+    color: white;
+}
+.p6text1{
+    left: 75vw;
+    top: 87vw;
+    color: white;
+}
+.p7text1{
+    left: 20vw;
+    top: 132.5vw;
+    color: white;
+}
+.p8text1{
+    left: 48vw;
+    top: 130.5vw;
+    color: white;
+}
+.p9text1{
+    left: 73vw;
+    top: 128.3vw;
+    color: white;
+}
+
+
+.p1text2{
+    left: 19vw;
+    top: 44.3vw;
+    color: #777777;
+}
+.p2text2{
+    left: 48vw;
+    top: 44.3vw;
+    color: #777777;
+}
+.p3text2{
+    left: 75.5vw;
+    top: 44.3vw;
+    transform: rotate(-6.02deg);
+    color: #777777;
+}
+.p4text2{
+    left: 18.3vw;
+    top: 88.3vw;
+    color: #777777;
+}
+.p5text2{
+    left: 42.3vw;
+    top: 86.3vw;
+    color: #777777;
+}
+.p6text2{
+    left: 72.5vw;
+    top: 88.3vw;
+    color: #777777;
+}
+.p7text2{
+    left: 19vw;
+    top: 133.8vw;
+    color: #777777;
+}
+.p8text2{
+    left: 46.6vw;
+    top: 131.8vw;
+    color: #777777;
+}
+.p9text2{
+    left: 71vw;
+    top: 129.6vw;
+    color: #777777;
+}
+
+
+.p1text3{
+    left: 20.6vw;
+    top: 47vw;
+    color: #AE0000;
+}
+.p2text3{
+    left: 49.8vw;
+    top: 47vw;
+    color: white;
+}
+.p3text3{
+    left: 78.5vw;
+    top: 47vw;
+    transform: rotate(-6.02deg);
+    color: white;
+}
+.p4text3{
+    left: 20.6vw;
+    top: 91vw;
+    color: white;
+}
+.p5text3{
+    left: 44.5vw;
+    top: 89vw;
+    color: white;
+}
+.p6text3{
+    left: 76vw;
+    top: 88.5vw;
+    color: white;
+}
+.p7text3{
+    left: 20.5vw;
+    top: 136.5vw;
+    color: white;
+}
+.p8text3{
+    left: 48.7vw;
+    top: 134.6vw;
+    color: white;
+}
+.p9text3{
+    left: 73.6vw;
+    top: 132.4vw;
+    color: white;
+}
+.zacherk3{
+    display: block;
+    position: absolute;
+    width: 2.1vw;
+    left: 23.8vw;
+    top: 46.7vw;
+}
+.rectangle{
+    position: relative;
+    display: block;
+    width: 5vw;
+    height: 5vw;
+    background-color: black;
+    top: 8vw;
+}
+
+
+
+/* 🍏🍏🍏  MODUL  🍏🍏🍏 */
+.modulf{
+    width: 100vw;
+    height: 40vw;
+}
+.mod2{
+    display: block;
+    position: relative;
+    left: 12vw;
+    top: 3vw;
+}
+.mod3{
+    display: block;
+    position: absolute;
+    left: 57vw;
+    top: 14vw;
+}
